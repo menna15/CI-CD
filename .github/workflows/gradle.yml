@@ -26,6 +26,8 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: gradle
+    - name: navigate ..
+      run: cd gradleDir/
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
     - name: Build with Gradle
